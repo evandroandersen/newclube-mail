@@ -31,12 +31,12 @@ const useStyles = makeStyles((theme) => ({
     height: 240,
   },
   tab: {
-    backgroundColor: theme.palette.options,  //DARK MODE PLW DESIGN//
+    backgroundColor: theme.palette.options,  
     borderRadius: 4,
     width: "100%",
     "& .MuiTab-wrapper": {
       color: theme.palette.fontecor,
-    },   //DARK MODE PLW DESIGN//
+    },   
     "& .MuiTabs-flexContainer": {
       justifyContent: "center"
     }
@@ -108,7 +108,6 @@ export default function Options(props) {
   const [asaasType, setAsaasType] = useState("");
   const [loadingAsaasType, setLoadingAsaasType] = useState(false);
   
-  // recursos a mais da plw design
 
   const [SendGreetingAccepted, setSendGreetingAccepted] = useState("disabled");
   const [loadingSendGreetingAccepted, setLoadingSendGreetingAccepted] = useState(false);

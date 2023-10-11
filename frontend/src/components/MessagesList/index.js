@@ -27,7 +27,7 @@ import MessageOptionsMenu from "../MessageOptionsMenu";
 import whatsBackground from "../../assets/wa-background.png";
 import LocationPreview from "../LocationPreview";
 
-import whatsBackgroundDark from "../../assets/wa-background-dark.png"; //DARK MODE PLW DESIGN//
+import whatsBackgroundDark from "../../assets/wa-background-dark.png"; 
 
 import api from "../../services/api";
 import toastError from "../../errors/toastError";
@@ -46,7 +46,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   messagesList: {
-    backgroundImage: theme.mode === 'light' ? `url(${whatsBackground})` : `url(${whatsBackgroundDark})`, //DARK MODE PLW DESIGN//
+    backgroundImage: theme.mode === 'light' ? `url(${whatsBackground})` : `url(${whatsBackgroundDark})`, 
     display: "flex",
     flexDirection: "column",
     flexGrow: 1,

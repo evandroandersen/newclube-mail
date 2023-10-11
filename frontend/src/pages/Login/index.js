@@ -22,7 +22,7 @@ const Copyright = () => {
 		<Typography variant="body2" color="primary" align="center">
 			{"Copyright "}
  			<Link color="primary" href="#">
- 				PLW
+ 				HDtec
  			</Link>{" "}
  			{new Date().getFullYear()}
  			{"."}
@@ -46,7 +46,7 @@ const useStyles = makeStyles(theme => ({
 		textAlign: "center",
 	},
 	paper: {
-		backgroundColor: theme.palette.login, //DARK MODE PLW DESIGN//
+		backgroundColor: theme.palette.login, 
 		display: "flex",
 		flexDirection: "column",
 		alignItems: "center",
